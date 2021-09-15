@@ -4,11 +4,12 @@ Control your computer using just your voice. Just like JARVIS in Iron Man.
 This uses modules suck as Speech recognition from CMUSphinx, requests, and webbrowser to perform its tasks.
 
 
+**Installing Dependencies**
 
+*Arch/Manjaro:*
 
-**Installation:**
+`sudo pacman -S python python2 wmctrl xdotool python-pip python2-pip python-pylint python2-pylint python-pyaudio python-lxml python2-lxml python-setuptools python2-setuptools python-wheel python2-wheel`
 
-Install dependencies at first and then run it "python UltronEN.py"
 
 
 
@@ -20,14 +21,15 @@ Install dependencies at first and then run it "python UltronEN.py"
 `pip install --user SpeechRecognition lxml requests pynput mouse setuptools wheel`
 
 
-
-*Arch/Manjaro:*
-
-`sudo pacman -S python python2 wmctrl xdotool python-pip python2-pip python-pylint python2-pylint python-pyaudio python-lxml python2-lxml python-setuptools python2-setuptools python-wheel python2-wheel`
-
-
-
 `pip install --user SpeechRecognition requests pynput mouse`
+
+
+
+**Installation:**
+
+`python3 jarvis-linux.py`
+
+
 
 
 **Commands:**
