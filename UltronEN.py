@@ -4,8 +4,6 @@ import requests
 import webbrowser
 import os
 from pynput.keyboard import Key, Controller
-import mouse
-
 
 mlist = []
 loopme = 1
