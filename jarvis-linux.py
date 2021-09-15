@@ -16,9 +16,9 @@ while(loopme == 1):
 
         print("Please Wait...")
         r.adjust_for_ambient_noise(source)
-        print("What can I do for you Sir ?")
+        print("What can I do for you, Sir?")
         audio = r.listen(source)
-        print("Trying to recognize...")
+        print("Processing...")
 
     try:
         t = r.recognize_google(audio).lower()

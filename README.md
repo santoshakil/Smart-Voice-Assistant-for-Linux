@@ -4,7 +4,11 @@ Control your computer using just your voice. Just like JARVIS in Iron Man.
 This uses modules suck as Speech recognition from CMUSphinx, requests, and webbrowser to perform its tasks.
 
 
-**Installing Dependencies**
+
+
+
+
+##Install Dependencies
 
 *Arch/Manjaro:*
 
@@ -25,14 +29,17 @@ This uses modules suck as Speech recognition from CMUSphinx, requests, and webbr
 
 
 
-**Installation:**
+
+
+##Usage:
 
 `python3 jarvis-linux.py`
 
 
 
 
-**Commands:**
+
+##Voice Commands:
 
 1. Open/Close  X
 2. Close  this
