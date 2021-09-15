@@ -1,7 +1,7 @@
 # JARVIS Voice Assistant for Linux
 Control your computer using just your voice. Just like JARVIS in Iron Man.
 
-This uses modules suck as Speech recognition from CMUSphinx, requests, and webbrowser to perform its tasks.
+This uses modules such as Speech recognition from CMUSphinx, requests, and webbrowser to perform its tasks.
 
 
 
