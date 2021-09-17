@@ -1,30 +1,45 @@
-# Smart-Voice-Assistant-for-Linux
-This is a smart voice assistant for Linux. It can do many important task of Linux with users voice command.
+# JARVIS Voice Assistant for Linux
+Control your computer using just your voice. Just like JARVIS in Iron Man.
+
+This uses modules such as Speech recognition from CMUSphinx, requests, and webbrowser to perform its tasks.
 
 
 
 
-Installation:
-Install this dependencies at first and then run it "python UltronEN.py"
 
 
-Arch/Manjaro:
+##Install Dependencies
 
-sudo pacman -S python python2 wmctrl xdotool python-pip python2-pip python-pylint python2-pylint python-pyaudio python-lxml python2-lxml python-setuptools python2-setuptools python-wheel python2-wheel
+*Arch/Manjaro:*
 
-pip install --user SpeechRecognition requests pynput mouse
-
-
-Deian/Ubuntu:
-
-sudo apt install wmctrl xdotool python-pip python3-pip *pylint *pyaudio python
-
-pip install --user SpeechRecognition lxml requests pynput mouse setuptools wheel
+`sudo pacman -S python python2 wmctrl xdotool python-pip python2-pip python-pylint python2-pylint python-pyaudio python-lxml python2-lxml python-setuptools python2-setuptools python-wheel python2-wheel`
 
 
 
 
-Commands:
+*Debian/Ubuntu:*
+
+`sudo apt install wmctrl xdotool python-pip python3-pip *pylint *pyaudio python`
+
+
+`pip install --user SpeechRecognition lxml requests pynput mouse setuptools wheel`
+
+
+`pip install --user SpeechRecognition requests pynput mouse`
+
+
+
+
+
+##Usage:
+
+`python3 jarvis-linux.py`
+
+
+
+
+
+##Voice Commands:
 
 1. Open/Close  X
 2. Close  this
